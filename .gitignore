@@ -1,0 +1,23 @@
+# Arquivos gerados automaticamente
+node_modules/
+.cache/
+.DS_Store
+
+# Arquivos de build
+dist/
+build/
+out/
+
+# Arquivos de ambiente
+.env.local
+.env.*.local
+.env.development
+.env.test
+.env.production
+
+# Dependendo do seu ambiente, você também pode adicionar outras regras específicas.
+# Por exemplo, se você usa Yarn:
+yarn.lock
+
+# Se você usa TypeScript:
+*.tsbuildinfo
